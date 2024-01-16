@@ -1,0 +1,14 @@
+App(
+    appid="mtof171000c0",
+    name="MTOF171000C0",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="mtof171000c0_app",
+    stack_size=2 * 1024,
+    fap_category="GPIO",
+    # Optional values
+    fap_version="0.1",
+    fap_icon="mtof171000c0.png",  # 10x10 1-bit PNG
+    fap_description="MTOF171000C0 sensor demo app",
+    fap_author="Aku",
+    fap_weburl="https://github.com/skotopes/mtof171000c0",
+)
